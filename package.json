@@ -1,8 +1,8 @@
 {
-  "name": "hubot",
+  "name": "hosted-hubot",
   "version": "2.6.3",
 
-  "author": "hubot",
+  "author": "GitHub Inc.",
 
   "keywords": [
     "github",
@@ -20,10 +20,12 @@
 
   "repository" : {
     "type": "git",
-    "url": "git@heroku.com:jfdi-hubot.git"
+    "url": "https://github.com/github/hubot.git"
   },
 
   "dependencies": {
+    "hubot":         "2.4.5",
+    "hubot-scripts": "2.4.6",
     "coffee-script":      "1.6.3",
     "optparse":           "1.0.4",
     "scoped-http-client": "0.9.8",
