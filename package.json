@@ -20,7 +20,7 @@
 
   "repository" : {
     "type": "git",
-    "url": "https://github.com/sarahcassady/jfdi-hubot.git"
+    "url": "git@heroku.com:jfdi-hubot.git"
   },
 
   "dependencies": {
