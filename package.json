@@ -23,7 +23,7 @@
     "url": "https://github.com/github/hubot.git"
   },
 
-  "dependencies": {
+  "dependencies": { 
     "hubot":         "2.4.5",
     "hubot-scripts": "2.4.6",
     "coffee-script":      "1.6.3",
