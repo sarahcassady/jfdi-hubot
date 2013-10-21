@@ -34,11 +34,9 @@
   },
 
   "engines": {
-    "node": ">= 0.8.x",
-    "npm":  ">= 1.1.x"
+    "node": "v0.10.21",
+    "npm":  "1.3.11"
   },
-  
-  "main": "./index",
 
   "bin": {
     "hubot": "./bin/hubot"
