@@ -38,7 +38,7 @@
     "npm":  "1.3.11"
   },
 
-  "main": "./index",
+  "main": "./web.js",
 
   "bin": {
     "hubot": "./bin/hubot"
