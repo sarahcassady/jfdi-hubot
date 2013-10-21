@@ -38,7 +38,7 @@
     "npm":  ">= 1.2.x"
   },
 
-  "main": "./index",
+  "main": "./index.php",
 
   "bin": {
     "hubot": "./bin/hubot"
