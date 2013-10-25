@@ -32,7 +32,8 @@
     "log":                "1.4.0",
     "express":            "3.4.2",
     "htmlparser": "1.7.6",
-    "soupselect": "0.2.0"
+    "soupselect": "0.2.0",
+    "jsdom": "0.2.14"
   },
 
   "engines": {
