@@ -12,15 +12,13 @@
 # Author:
 #   sarahcassady
 
-  r#obot.hear /jfdi/i, (msg) ->
-    #msg.send "You keep using that word. I do not think it means what you think it means."
-
 module.exports = (robot) ->
 
-  robot.hear /jfdi/i, (msg) ->
+  robot.hear /jfdi?\b/i, (msg) ->
   lulz = [
   	'DOIN IT LIVE! YEAH!', 
   	'Do it! Doitdoitdoitdoitdoit!', 
   	'Get \'er done ;)'
   ]
-  msg.send msg.random lulz
+  #msg.send msg.random lulz
+  msg.send "DOIN IT LIVE! YEAH!"
