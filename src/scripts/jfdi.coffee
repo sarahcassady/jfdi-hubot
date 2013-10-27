@@ -12,6 +12,9 @@
 # Author:
 #   sarahcassady
 
+  r#obot.hear /jfdi/i, (msg) ->
+    #msg.send "You keep using that word. I do not think it means what you think it means."
+
 module.exports = (robot) ->
 
   robot.hear /jfdi/i, (msg) ->
