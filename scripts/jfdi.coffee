@@ -14,6 +14,5 @@
 
 module.exports = (robot) ->
   robot.hear /jfdi?\b/i, (msg) ->
-    #msg.send "DOIN IT LIVE! YEAH!"
-    doit = ["DOIN IT LIVE! YEAH!","Do it! Doitdoitdoitdoitdoit!", "Get it done"] 
+    doit = ["DOIN IT LIVE! YEAH!","Do it! Doitdoitdoitdoitdoit!", "Get it done! WOOO!!","J-F-D-I! J-F-D-I! J-F-D-I!"] 
     msg.send msg.random doit
