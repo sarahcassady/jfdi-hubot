@@ -24,16 +24,15 @@
   },
 
   "dependencies": { 
-    "hubot":         ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot":         "2.4.5",
+    "hubot-scripts": "2.4.6",
     "coffee-script":      "1.6.3",
     "optparse":           "1.0.4",
     "scoped-http-client": "0.9.8",
     "log":                "1.4.0",
-    "express":            "3.3.4",
+    "express":            "3.4.2",
     "htmlparser": "1.7.6",
-    "soupselect": "0.2.0",
-    "redis-url": "0.1.0"
+    "soupselect": "0.2.0"
   },
 
   "engines": {
