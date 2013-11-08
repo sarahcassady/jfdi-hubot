@@ -33,7 +33,8 @@
     "express":            "3.3.4",
     "htmlparser": "1.7.6",
     "soupselect": "0.2.0",
-    "redis-url": "0.1.0"
+    "redis-url": "0.1.0",
+    "openssl": "0.1.0"
   },
 
   "engines": {
