@@ -38,7 +38,7 @@ mornings = [
     "%: Hey! You ready to JFDI today?"
 ]
 module.exports = (robot) ->
-    robot.hear /(hello|hi|good( [d'])?ay(e)?)/i, (msg) ->
+    robot.hear /(hello|hi |good( [d'])?ay(e)?)/i, (msg) ->
         hello = msg.random hellos
         msg.send hello.replace "%", msg.message.user.name
 
