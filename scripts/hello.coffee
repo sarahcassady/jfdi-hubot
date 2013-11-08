@@ -29,7 +29,7 @@ mornings = [
     "Good morning, %",
     "Good morning to you too, %",
     "Good day, %",
-    "Good 'aye!, %",
+    "Good 'aye, %!",
     "Top of the morning to you, %!",
     "%: Morning! Ready for a productive day?",
     "%: Hey! Are you ready to JFDI today?",
