@@ -8,7 +8,7 @@ var cas = [fs.readFileSync('/Users/sarahcassady/ca.pem')];
 https.globalAgent.options.ca = cas;
 */
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
