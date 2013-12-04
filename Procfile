@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n botinator
+web: bin/hubot -a campfire -n bot
